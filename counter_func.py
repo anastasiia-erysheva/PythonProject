@@ -1,7 +1,6 @@
 from collections import Counter
 
 data = Counter('aksjaskfjsklfjdslkfjajfopewtoieqpwdpqworiiqjskanvmcxbmpewrqopkqwlmdzczmxvmvlnjpjqpkqzxvmbowiqeorewi')
-
 def get_min_values():
     if not data:
         return []
