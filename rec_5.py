@@ -4,3 +4,4 @@ def print_digits(number):
     else:
         print(number % 10)
         print_digits(number // 10)
+print_digits(123456789)
