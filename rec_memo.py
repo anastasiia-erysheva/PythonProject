@@ -8,5 +8,4 @@ def tribonacci(n):
     memo[n] = result
     return result
 
-
 print(tribonacci(45))
