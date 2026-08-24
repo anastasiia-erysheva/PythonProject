@@ -1,6 +1,6 @@
 import csv
 import json
-from collections import Counter
+
 with open("prices.json", "r", encoding="utf-8") as file:
     data = json.load(file)
 for i in range(1, 5):
