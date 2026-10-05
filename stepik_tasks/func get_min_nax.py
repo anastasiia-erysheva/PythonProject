@@ -15,7 +15,7 @@ def get_min_max(iterable):
 
     return (min_value, max_value)
 
-iterable = iter(range(1000000))
+iterable = iter(range(10000000))
 
 print(get_min_max(iterable))
 
